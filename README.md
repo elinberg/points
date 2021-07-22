@@ -11,6 +11,7 @@ Given a record of every transaction during a three month period, calculate the r
 Make up a data set to best demonstrate the solution (Rest/GraphQL)
 
 MY INTERPETAION OF THE REQUIREMENTS
+
 Use REST or GraphQL
 I chose to mock the data using quickmocker (I have $2.99 invested in this endeavor. That should count for something)
 If you give a developer minimal requirements, we will play fast and loose with them
