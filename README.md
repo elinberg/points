@@ -1,7 +1,7 @@
 
-#Reward Points Application
+# Reward Points Application
 
-GIVEN REQUIREMENTS
+### GIVEN REQUIREMENTS
 A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent over $50 in each transaction
  
 (e.g. a $120 purchase = 2x$20 + 1x$50 = 90 points).
@@ -10,7 +10,7 @@ Given a record of every transaction during a three month period, calculate the r
 
 Make up a data set to best demonstrate the solution (Rest/GraphQL)
 
-MY INTERPETAION OF THE REQUIREMENTS
+### MY INTERPETAION OF THE REQUIREMENTS
 
 Use REST or GraphQL
 I chose to mock the data using quickmocker (I have $2.99 invested in this endeavor. That should count for something)
