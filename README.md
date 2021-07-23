@@ -15,7 +15,7 @@ Make up a data set to best demonstrate the solution (Rest/GraphQL)
 ### (e.g. a $120 purchase = 2x$20 + 1x$50 = 90 points). <- THIS IS WRONG
 Should be 110 Points. 
 
-[DATASET](https://7jnlhc0616.api.quickmocker.com/transactions)
+[LINK TO DATASET](https://7jnlhc0616.api.quickmocker.com/transactions)
 
 Use REST or GraphQL
 I chose to mock the data using quickmocker (I have $2.99 invested in this endeavor. That should count for something)
