@@ -12,10 +12,14 @@ Make up a data set to best demonstrate the solution (Rest/GraphQL)
 
 ### MY INTERPETAION OF THE REQUIREMENTS
 
+### (e.g. a $120 purchase = 2x$20 + 1x$50 = 90 points). <- THIS IS WRONG
+Should be 110 Points. 
+
+
 Use REST or GraphQL
 I chose to mock the data using quickmocker (I have $2.99 invested in this endeavor. That should count for something)
 If you give a developer minimal requirements, we will play fast and loose with them
-Since I really couldn't ask any questions and the recruiter is clueless as to what this even is/
+Since I really couldn't ask any questions and the recruiter is clueless as to what this even is?
 I dreamed up a scenario where Southwest Airlines is partnering with Capital One to offer Airline miles
 As the tech world is evermore API centric, You don't have the luxary of controlling how the data is stored or returned to you. 
 I probably chose the worst case scenario just grabbing users, transaction dates, and transaction amounts from a REST API. 

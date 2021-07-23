@@ -3,13 +3,18 @@ export default class Transformer {
 
     calculatePoints(amount) {
         let points = 0
+        let points50 = 0
+        let points100 = 0
         //(e.g. a $120 purchase = 2x$20 + 1x$50 = 90 points).
-        if (amount > 100) {
-            points = amount - 100 * 2
-            points += amount - 50 * 1
+        if (parseFloat(amount) > 100) {
+            points100 = (amount - 100) * 2
+            console.log("POINTS OVER 100", amount, amount - 100, points100)
+            points50 += (amount - 50) * 1
+            console.log("POINTS OVER 50",amount, amount - 50, points50)
+            points = points100 + points50;
 
-        } else if (amount >= 50 && amount <= 100) {
-            points = amount - 50 * 1
+        } else if (parseFloat(amount) >= 50 && parseFloat(amount) <= 100) {
+            points = (amount - 50) * 1
 
         } else {
             points = 0
@@ -22,6 +27,7 @@ export default class Transformer {
 
         //add derived column
         records.forEach((record, i) => {
+            console.log("USER",record.userId)
             records[i].points = this.calculatePoints(record.transactionAmount);
             records[i].month = new Date(parseInt(record.timestamp) * 1000).toLocaleString('default', { month: 'long' });;
         })
