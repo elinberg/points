@@ -9,12 +9,14 @@ export default class Transformer {
         if (parseFloat(amount) > 100) {
             points100 = (amount - 100) * 2
             console.log("POINTS OVER 100", amount, amount - 100, points100)
-            points50 += (amount - 50) * 1
+            points50 = (amount - 50) * 1
             console.log("POINTS OVER 50",amount, amount - 50, points50)
             points = points100 + points50;
+            console.log("POINTS TOTAL TRANSACTION",points)
 
         } else if (parseFloat(amount) >= 50 && parseFloat(amount) <= 100) {
             points = (amount - 50) * 1
+            console.log("POINTS TOTAL TRANSACTION",points)
 
         } else {
             points = 0
